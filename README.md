@@ -21,13 +21,25 @@ I have ported the alpha-0.1 code to use a more recent version of scala so that i
    - Select: Git > Projects from Git > Next
    - Select: Clone URI > Next
    - Enter URI: `https://github.com/snowch/learn-apache-spark-internals` > Next
-   - Select: `master` branch > Next
+   - Select: `alpha-0.1` branch > Next
    - Select: {{accept defaults}} > Next
-   - Select: Import existing Eclipse projects > Next   
+   - Select: Import existing Eclipse projects > Next
+   - Select: Finish
    
-### Run example
+### Run BroadcastTest example
 
- - coming soon ...
+ - Right click: src/examples/BroadcastTest.scala > Run As > Scala Application
+   - You should see `Usage: BroadcastTest <host> [<slices>]` in the console
+   - Select: Run Menu > Run Configurations... > 
+   - Select: Scala Application > BroadcastTest$
+   - Select: Arguments Tab
+   - Enter: `local[2]` in Program arguments
+   - Select: Run
+   - Inspect the Console for the program output
+   
+### Debug BroadcastTest example
+
+ - Coming soon ...
 
 
 
