@@ -22,9 +22,12 @@ I have ported the alpha-0.1 code to use a more recent version of scala so that i
    - Select: Clone URI > Next
    - Enter URI: `https://github.com/snowch/learn-apache-spark-internals` > Next
    - Select: `master` branch > Next
+   - Select: {{accept defaults}} > Next
+   - Select: Import existing Eclipse projects > Next   
    
 ### Run example
 
  - coming soon ...
+
 
 
