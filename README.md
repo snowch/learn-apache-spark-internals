@@ -8,7 +8,7 @@ I have ported the alpha-0.1 code to use a more recent version of scala so that i
 
 ## Pre-requisites
 
- - You have installed Scala IDE: http://scala-ide.org/
+ - You have installed Scala IDE 4.5: http://scala-ide.org/
  - You have some experience of using spark via the spark APIs
  - You have at least a basic knowledge of scala and keen to learn more as you go
 
@@ -28,7 +28,7 @@ I have ported the alpha-0.1 code to use a more recent version of scala so that i
    
 ### Run BroadcastTest example
 
- - Right click: src/examples/BroadcastTest.scala > Run As > Scala Application
+ - Right click: `src/examples/BroadcastTest.scala` > Run As > Scala Application
    - You should see `Usage: BroadcastTest <host> [<slices>]` in the console
    - Select: Run Menu > Run Configurations... > 
    - Select: Scala Application > BroadcastTest$
@@ -39,7 +39,13 @@ I have ported the alpha-0.1 code to use a more recent version of scala so that i
    
 ### Debug BroadcastTest example
 
- - Coming soon ...
+ - Open the file: `src/examples/BroadcastTest.scala`
+   - Right Click: to the left of the number 9 in the editor > Toggle Breakpoint
+   - Select: Run Menu > Debug As > Scala Application
+   - Select: Use configuration specific settings > Scala JVM Launcher 
+   - Select: OK (Popup for Absert Line Number Information)
+   - Select: Yes to open Debug Configuration
+   - You are now in the Eclipse debugger, for more info see: https://www.youtube.com/watch?v=Gq5Vihtgl2c
 
 
 
